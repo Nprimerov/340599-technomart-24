@@ -17,8 +17,9 @@
 				<address>г. Санкт-Петербург. ул Б.Конюшенная,д. 19/8</address>
 			</div>
 			<ul>
-				<li><a href="#">Войти</a></li>
-				<li><a href="#">Регистрация</a></li>
+				<li><a class="link" href="#">Равшан Джамшутович</a></li>
+				<li><a class="link" href="#">Мои заказы</a></li>
+				<li><a class="link" href="#">Личный кабинет</a></li>
 			</ul>
 			<nav class="main-navigation">
 				<ul class="site-navigation">
@@ -151,43 +152,47 @@
 					</li>
 				</ul>
 			</section>
-			<section class="filters">
-				<h3>ПРОИЗВОДИТЕЛЬ:</h3>
-				<ul>
-					<li>
-            <input type="checkbox" id="filter-bosch" name="bosch">
-            <label for="filter-bosch">BOSCH</label>
-          </li>
-					<li>
-            <input type="checkbox" id="filter-interscol" name="interscol">
-            <label for="filter-interscol">ИНТЕРСКОП</label>
-          </li>
-					<li>
-            <input type="checkbox" id="filter-makita" name="makita">
-            <label for="filter-makita">MAKITA</label>
-          </li>
-					<li>
-            <input type="checkbox" id="filter-dewalt" name="dewalt">
-            <label for="filter-dewalt">DEWALT</label>
-          </li>
-					<li>
-            <input type="checkbox" id="filter-hitachi" name="hitachi">
-            <label for="filter-hitachi">HITACHI</label>
-          </li>
-				</ul>
-				<h3>ПИТАНИЕ:</h3>
-				<ul>
-					<li>
-            <input type="checkbox" id="filter-rechargeable" name="rechargeable">
-            <label for="filter-rechargeable">АККУМУЛЯТОРНЫЕ</label>
-          </li>
-					<li>
-            <input type="checkbox" id="filter-networked" name="networked">
-            <label for="filter-networked">СЕТЕВЫЕ</label>
-          </li>
-				</ul>
-				<span>Показать</span>
-      </section>
+			<form class="filters" method="get" action="https://echo.htmlacademy.ru">
+				<fieldset>
+					<legend>Производитель:</legend>
+					<ul>
+						<li>
+            	<input type="checkbox" id="filter-bosch" name="bosch" checked>
+            	<label for="filter-bosch">Bosch</label>
+          	</li>
+						<li>
+            	<input type="checkbox" id="filter-interscol" name="interscol">
+            	<label for="filter-interscol">Интерскол</label>
+          	</li>
+						<li>
+            	<input type="checkbox" id="filter-makita" name="makita">
+            	<label for="filter-makita">Makita</label>
+          	</li>
+						<li>
+            	<input type="checkbox" id="filter-dewalt" name="dewalt">
+            	<label for="filter-dewalt">Dewalt</label>
+          	</li>
+						<li>
+            <input type="checkbox" id="filter-hitachi" name="hitachi" checked>
+            <label for="filter-hitachi">Hitachi</label>
+          	</li>				
+					</ul>
+				</fieldset>
+				<fieldset>
+					<legend>Питание:</legend>
+					<ul>
+						<li>
+            	<input type="radio" id="filter-rechargeable" name="sustentation" value="rechargeable">
+            	<label for="filter-rechargeable">Аккумуляторные</label>
+          	</li>
+						<li>
+            	<input type="radio" id="filter-networked" name="sustentation" value="networked">
+            	<label for="filter-networked">Сетевые</label>
+          	</li>
+					</ul>
+				</fieldset>
+				<button type="submit">Показать</button>
+      </form>
       <section class="info">
         <h2>Пара слов о перфораторах</h2>
         <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.
