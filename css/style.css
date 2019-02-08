@@ -109,13 +109,33 @@ a {
   background-color: #293449;
 }
 
+.Feedback{
+  color: #ffffff;
+}
 .Feedback a {
   color: #ffd180;
+}
+
+.footer-copyright {
+  color: #ffffff;
 }
 
 .footer-copyright a {
   color: #ffd180;
 }
+
+.login,
+.site-navigation,
+.item,
+.manufacturer,
+.service-list,
+.company-list,
+.category-navigation,
+.footer-social {
+  list-style: none;
+}
+
+
 
 
 
