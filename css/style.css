@@ -1,0 +1,126 @@
+/** Главная **/
+
+body {
+ margin: 0;
+ padding: 0;
+
+ font-family: "Cuprum", "Arial", "Helvetica", sans-serif;
+ font-size: 14px;
+ font-weight: 400;
+ color: #000000;
+ text-transform: uppercase;
+}
+
+a {
+ text-decoration: none;    
+}
+
+.menu {
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #293449;
+}
+
+.menu a {
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.checkout {
+  width: 150px;
+  height: 42px;
+  background-color: #63a63e;
+}
+
+.headline {
+  font-style: italic;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ee3643;
+}
+
+.red {
+  color: #ee3643;
+}
+
+.blue {
+  color: #32425c;
+}
+
+.login a {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.main-navigation {
+  background-color: #32425c;
+}
+
+.main-navigation a {
+  font-size: 17px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.item {
+ font-family: "PT Sans", "Arial", "Helvetica", sans-serif;
+ font-size: 18px;
+ font-weight: 400;
+ text-transform: uppercase;
+}
+
+.item a{
+  color: #000000
+}
+
+.old-price {
+  color: #a9a9a9;
+  text-decoration: line-through;
+  font-size: 17px;
+}
+
+.contacts-footer {
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.copyright {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.category-navigation {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffd180;
+}
+
+.category-navigation a {
+  color: #ffd180;
+}
+
+.foter-container {
+  background-color: #293449;
+}
+
+.Feedback a {
+  color: #ffd180;
+}
+
+.footer-copyright a {
+  color: #ffd180;
+}
+
+
+
+
+
+
+
+
