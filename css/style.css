@@ -105,7 +105,7 @@ a {
   color: #ffd180;
 }
 
-.foter-container {
+.footer-container {
   background-color: #293449;
 }
 
@@ -131,12 +131,34 @@ a {
 .service-list,
 .company-list,
 .category-navigation,
-.footer-social {
+.footer-social,
+.catalog-navigation {
   list-style: none;
 }
 
+.marker,
+.search,
+.basket :hover {
+  background-color: #212a3a;
+}
 
+.marker,
+.basket :active {
+  background-color:  #161d29;
+}
 
+.search :focus {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.checkout :hover {
+  background-color: #5fbb2d;
+}
+
+.checkout :active {
+  background-color: #518534;
+}
 
 
 
