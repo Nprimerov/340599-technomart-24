@@ -12,7 +12,8 @@ body {
 }
 
 a {
- text-decoration: none;    
+ text-decoration: none; 
+ display: block;   
 }
 
 .menu {
@@ -50,7 +51,7 @@ a {
   color: #32425c;
 }
 
-.login a {
+.login {
   font-size: 21px;
   line-height: 21px;
   color: #000000;
@@ -124,10 +125,14 @@ a {
   color: #ffd180;
 }
 
+.company-list li {
+  font-weight: 700;
+}
+
 .login,
 .site-navigation,
 .item,
-.manufacturer,
+.manufacturers,
 .service-list,
 .company-list,
 .category-navigation,
@@ -136,29 +141,91 @@ a {
   list-style: none;
 }
 
+.write-us,
+.cart,
+.modal-cart {
+  display: none; 
+}
+
 .marker,
-.search,
-.basket :hover {
+.basket:hover {
   background-color: #212a3a;
 }
 
+.search {
+  background-color:  #212a3a;
+  color: #ffffff;
+  
+}
+
 .marker,
-.basket :active {
+.basket:active {
   background-color:  #161d29;
 }
 
-.search :focus {
+.search:focus {
   background-color: #ffffff;
   color: #000000;
 }
 
-.checkout :hover {
+.checkout:hover {
   background-color: #5fbb2d;
 }
 
-.checkout :active {
+.checkout:active {
   background-color: #518534;
 }
+
+.login:hover {
+  color: #ee3643;
+}
+
+.login:active {
+  opacity: 30%; 
+}
+
+.site-navigation li {
+  padding: 0 30px;
+  height: 60px;
+}
+
+.site-navigation .navigation-link:hover {
+  background-color: #1d2739;
+  width: 100%;
+  height: 100%;
+}
+
+.site-navigation .navigation-link:active {
+  background-color: #1d2739;
+  width: 100%;
+  height: 100%;
+  opacity: 50%;
+}
+
+.foter-navigation-link:hover {
+  text-decoration: underline;
+}
+
+.foter-navigation-link:active {
+  opacity: 50%;
+}
+
+.button-mail,
+.button-site:hover {
+  text-decoration: underline;
+}
+
+.button-mail,
+.button-site:active {
+  color: #ee3643;
+}
+
+
+
+
+
+
+
 
 
 
