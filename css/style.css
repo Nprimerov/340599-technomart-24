@@ -1,4 +1,3 @@
-/** Главная **/
 
 body {
  margin: 0;
@@ -51,7 +50,7 @@ a {
   color: #32425c;
 }
 
-.login {
+.login a {
   font-size: 21px;
   line-height: 21px;
   color: #000000;
@@ -137,7 +136,8 @@ a {
 .company-list,
 .category-navigation,
 .footer-social,
-.catalog-navigation {
+.catalog-navigation,
+.bread-crumbs {
   list-style: none;
 }
 
@@ -150,18 +150,23 @@ a {
 
 .marker:hover,
 .basket:hover {
-  background-color: #212a3a;
+  background-color: #293449;
 }
 
 .search {
-  background-color:  #212a3a;
+  background-color: #293449;
+  color: #ffffff;
+}
+
+.search:hover {
+  background-color: #212a3a;
   color: #ffffff;
   
 }
 
 .marker:active,
 .basket:active {
-  background-color:  #161d29;
+  background-color: #161d29;
 }
 
 .search:focus {
@@ -186,6 +191,8 @@ a {
 }
 
 .site-navigation li {
+  width: 127px;
+  height: 60px;
   padding: 0 30px;
   height: 60px;
 }
@@ -200,7 +207,7 @@ a {
   background-color: #1d2739;
   width: 100%;
   height: 100%;
-  opacity: 50%;
+  opacity: 0.5;
 }
 
 .foter-navigation-link:hover {
@@ -208,7 +215,7 @@ a {
 }
 
 .foter-navigation-link:active {
-  opacity: 50%;
+  opacity: 0.5;
 }
 
 .button-mail:hover,
@@ -222,6 +229,8 @@ a {
 }
 
 .button-catalog {
+  width: 195px;
+  height: 38px;
   background-color: #ee3643;
   color: #ffffff;
 }
@@ -232,26 +241,182 @@ a {
 }
 
 .button-catalog:active {
-   background-color: #ba2732;
-   color: #ffffff;
+  background-color: #ba2732;
+  color: #ffffff;
 }
 
-  .new-price {
-    background-color: #ee3643;
-    color: #ffffff;
+.new-price {
+  width: 141px;
+  height: 38px;
+  background-color: #ee3643;
+  color: #ffffff;
 }
 
+.button-delivery,
+.button-warranty,
+.button-credit {
+  width: 240px;
+  height: 61px;
+  background-color: #32425c;
+  color: #ffffff; 
+}
 
+.button-delivery:hover,
+.button-warranty:hover,
+.button-credit:hover {
+  width: 240px;
+  height: 61px;
+  background-color: #293449;
+  color: #ffffff;
+}
 
+.button-delivery:focus,
+.button-warranty:focus,
+.button-credit:focus {
+  width: 240px;
+  height: 61px;
+  background-color: #ffffff;
+  color: #32425c;
+}
 
+.slayer-material {
+  width: 300px;
+  height: 123px;
+  background-color: #ffbf47;
+  color: #ffffff;
+}
 
+.button-material {
+  width: 135px;
+  height: 38px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+}
 
+.slayer-instruments{
+  width: 300px;
+  height: 123px;
+  background-color: #3bbce3;
+  color: #ffffff;
+}
 
+.button-instruments {
+  width: 135px;
+  height: 38px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+}
 
+.slayer-equipment {
+  width: 300px;
+  height: 123px;
+  background-color: #dc91d8;
+  color: #ffffff;
+}
 
+.button-equipment {
+  width: 135px;
+  height: 38px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+}
 
+.slayer-discounts {
+  width: 300px;
+  height: 123px;
+  background-color: #8ed78f;
+  color: #ffffff;
+}
 
+.button-discounts {
+  width: 135px;
+  height: 38px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+}
 
+.slayer-delivery {
+  width: 300px;
+  height: 123px;
+  background-color: #ffc047;
+  color: #ffffff;
+}
 
+.button-delivery-layer {
+  width: 135px;
+  height: 38px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+}
 
+.button-price,
+.button-type,
+.button-functional {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  color: rgba(0, 0, 0,0.3);
+}
+
+.button-price:hover,
+.button-type:hover,
+.button-functional:hover {
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.button-price:focus,
+.button-type:focus,
+.button-functional:focus {
+  color: #ee3643;
+}
+
+.button-page {
+  border: 1px solid #e5e5e5;
+  color: #000000;
+  width: 38px;
+  height: 38px;
+}
+
+.button-page:hover {
+  border: 1px solid #bdc6ca;
+  color: #000000;
+  width: 38px;
+  height: 38px;
+}
+
+.button-page:focus {
+  border: 1px solid #ee3643;
+  color: #000000;
+  width: 38px;
+  height: 38px;
+}
+
+.button-next {
+  border: 1px solid #e5e5e5;
+  color: #000000;
+  width: 140px;
+  height: 38px;
+}
+
+.button-next:hover {
+  border: 1px solid #bdc6ca;
+  color: #000000;
+  width: 140px;
+  height: 38px;
+}
+
+.button-next:focus {
+  border: 1px solid #ee3643;
+  color: #000000;
+  width: 140px;
+  height: 38px;
+}
+
+.bread-crumbs a {
+  color: #000000;
+}
+
+.footer-social a {
+  color: #000000;
+}
 
