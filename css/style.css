@@ -143,7 +143,7 @@ a {
 
 .write-us,
 .cart,
-.modal-cart
+.modal-cart,
 .visually-hidden {
   display: none; 
 }
@@ -226,6 +226,18 @@ a {
 .button-mail:active,
 .button-site:active {
   color: #ee3643;
+}
+
+.popular-manufacturers h2 {
+  color: #32425c;
+  font-size: 30px;
+}
+
+.link-manufacturers {
+  width: 253px;
+  height: 38;
+  background-color: #ee3643;
+  color: #ffffff;
 }
 
 .button-catalog {
