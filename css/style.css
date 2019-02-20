@@ -2,7 +2,6 @@
 body {
  margin: 0;
  padding: 0;
-
  font-family: "Cuprum", "Arial", "Helvetica", sans-serif;
  font-size: 14px;
  font-weight: 400;
@@ -10,16 +9,27 @@ body {
  text-transform: uppercase;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 a {
- text-decoration: none; 
- display: block;   
+  text-decoration: none;  
+}
+
+.site-navigation a {
+  display: block;
 }
 
 .menu {
   font-size: 17px;
   line-height: 18px;
   color: #ffffff;
-
   background-color: #293449;
 }
 
@@ -33,6 +43,8 @@ a {
   width: 150px;
   height: 42px;
   background-color: #63a63e;
+  line-height: 18px;
+  padding: 14px 20px;
 }
 
 .headline {
@@ -46,7 +58,7 @@ a {
   color: #ee3643;
 }
 
-.adress {
+.address {
   color: #32425c;
 }
 
@@ -109,10 +121,10 @@ a {
   background-color: #293449;
 }
 
-.Feedback{
+.feedback{
   color: #ffffff;
 }
-.Feedback a {
+.feedback a {
   color: #ffd180;
 }
 
@@ -190,11 +202,11 @@ a {
   opacity: 30%; 
 }
 
-.site-navigation li {
+.site-navigation a {
   width: 127px;
   height: 60px;
-  padding: 0 30px;
-  height: 60px;
+  padding: 22px 60px;
+  line-height: 17px;
 }
 
 .site-navigation .navigation-link:hover {
@@ -216,6 +228,7 @@ a {
 
 .foter-navigation-link:active {
   opacity: 0.5;
+  text-decoration: none;
 }
 
 .button-mail:hover,
@@ -226,6 +239,7 @@ a {
 .button-mail:active,
 .button-site:active {
   color: #ee3643;
+  text-decoration: none;
 }
 
 .popular-manufacturers h2 {
@@ -235,9 +249,11 @@ a {
 
 .link-manufacturers {
   width: 253px;
-  height: 38;
+  height: 38px;
   background-color: #ee3643;
   color: #ffffff;
+  line-height: 18px;
+  padding: 13px 69px;
 }
 
 .button-catalog {
@@ -245,6 +261,8 @@ a {
   height: 38px;
   background-color: #ee3643;
   color: #ffffff;
+  line-height: 18px;
+  padding: 14px 45px;
 }
 
 .button-catalog:hover {
@@ -262,6 +280,8 @@ a {
   height: 38px;
   background-color: #ee3643;
   color: #ffffff;
+  line-height: 18px;
+  padding: 15px 40px;
 }
 
 .button-delivery,
@@ -432,21 +452,24 @@ a {
   color: #000000;
 }
 
+.manufacturers li {
+  width: 262px;
+  height: 189px;
+}
+
 .manufacturers a:hover {
   background: #ffffff;
-  box-shadow: 0 10 25 0px rgba(41, 52, 73, 0.5);
-  padding: 10px
+  box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
 }
 
 .manufacturers a:active {
   background: #ffffff;
-  box-shadow: 0 4 10 0px rgba(41, 52, 73, 0.5);
-  padding: 10px
+  box-shadow: 0 4px 10px 0 rgba(41, 52, 73, 0.5);
 }
 
 .modal-cart {
-  width: 218;
-  height: 158;
+  width: 218px;
+  height: 158px;
   opacity: 0.9;
 }
 
@@ -493,5 +516,52 @@ a {
   width: 135px;
   height: 38px;
 }
+/** позиционирование **/
+.menu-center {
+  margin: 0 auto;
+  width: 960px;
+  padding: 0 10px;
+}
 
+.info-login {
+  background-color: #f4f7f9;
+}
+
+.info-login-center {
+  margin: 0 auto;
+  width: 960px;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.main-navigation-center {
+  margin: 0 auto;
+  width: 960px;
+  padding: 0 10px;
+}
+
+.site-navigation {
+  display: flex;
+  flex-direction: row;
+}
+
+.category-navigation {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container-center {
+  margin: 0 auto;
+  width: 960px;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: row;
+}
 
