@@ -12,7 +12,7 @@
       <div class="menu">
       <div class="menu-center">
         <a class="logo" href="index.html">
-        <img src="img/logo.png" alt="Техномарт" width="220" height="47">
+          <img src="img/logo.png" alt="Техномарт" width="220" height="47">
         </a>
         <input class="search" type="search" id="search" name="search" placeholder="Поиск:">
         <label class="visually-hidden" for="search">Поле поиска</label>
@@ -23,30 +23,26 @@
       </div>
       <div class="info-login">
       <div class="info-login-center">  
-        <h1 class="headline">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
       <div class="contacts-header">
+        <h1 class="headline">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
         <a class="phone" href="tel:+462152146527856">+7 (812) 555-05-55</a>
         <address class="address">г. Санкт-Петербург. ул Б.Конюшенная,д. 19/8</address>
       </div>
-        <ul class="login">
-          <li><a href="#">Войти</a></li>
-          <li><a href="#">Регистрация</a></li>
-        </ul>
-      </div>    
+          <ul class="login">
+            <li><a href="#">Войти</a></li>
+            <li><a href="#">Регистрация</a></li>
+          </ul> 
+          <ul class="site-navigation">
+            <li><a class="main-link">Главная</a></li>
+            <li><a class="company-link" href="company.html">Компания</a></li>
+            <li><a class="catalog-link" href="catalog.html">Каталог</a></li>
+            <li><a class="news-link" href="news.html">Новости</a></li>
+            <li><a class="special-offer-link" href="special-offer.html">Спецпредложения</a></li>
+            <li><a class="delivery-link" href="delivery.html">Доставка</a></li>
+            <li><a class="contacts-link" href="contacts.html">Контакты</a></li>
+          </ul> 
       </div>
-      <nav class="main-navigation">
-      <div class="main-navigation-center">
-        <ul class="site-navigation">
-          <li><a class="navigation-link">Главная</a></li>
-          <li><a class="navigation-link" href="company.html">Компания</a></li>
-          <li><a class="navigation-link" href="catalog.html">Каталог</a></li>
-          <li><a class="navigation-link" href="news.html">Новости</a></li>
-          <li><a class="navigation-link" href="special-offer.html">Спецпредложения</a></li>
-          <li><a class="navigation-link" href="delivery.html">Доставка</a></li>
-          <li><a class="navigation-link" href="contacts.html">Контакты</a></li>
-        </ul>
-      </div>    
-      </nav>
+      </div>  
     </header>
     <main>
       <section class="main-item">
@@ -133,8 +129,10 @@
         </ul>
       </section>
       <section class="popular-manufacturers">
-        <h2>Популярные производители:</h2>
-        <a class="link-manufacturers" href="#">Все производители</a>
+        <div class="popular-manufacturers-center">
+          <h2>Популярные производители:</h2>
+          <a class="link-manufacturers" href="#">Все производители</a>
+        </div>
         <ul class="manufacturers">
           <li>
             <a class="link" aria-label="Ссылка на товары производителя Бош" href="#">
@@ -209,28 +207,27 @@
           <li>Авторейдинг</li>
           <li>ЖелДорЭкспедиция</li>
         </ul>
-        <p><a href="company.html">ПОДРОБНИЕ О КОМПАНИИ</a></p>
+        <p><a class="info-company" href="company.html">ПОДРОБНИЕ О КОМПАНИИ</a></p>
       </section>
       <section class="contacts">
         <h2>КОНТАКТЫ</h2>
         <p>Вы можете забрать товар сами, заехав в наш офис:</p>
-        <a class="map" href="https://yandex.ru/maps/194/saratov/"><img src="img/map.jpg">Карта</a>
-        <a class="button" href="mail@htmlacademy.ru">ЗАБЛУДИЛИСЬ? НАПИШИТЕ НАМ!</a>
+        <a class="map" href="https://yandex.ru/maps/194/saratov/"><img src="img/map.jpg" alt="Карта"></a>
+        <a class="info-mail" href="mail@htmlacademy.ru">ЗАБЛУДИЛИСЬ? НАПИШИТЕ НАМ!</a>
       </section>
     </main>
     <footer class="main-footer">
-      <nav class="main-navigation">
+      <div class="footer-main-navigation">
       <div class="main-navigation-center">
-        <din class="logo-contacts">
-        <a class="logo" href="index.html">
-          <img src="img/logo.png" alt="Техномарт" width="220" height="47">
-        </a>
         <div class="contacts-footer">
-          <a href="tel:+462152146527856">+7 (812) 555-05-55</a>
+          <a class="logo" href="index.html">
+            <img src="img/logo.png" alt="Техномарт" width="220" height="47">
+          </a>
+          <a class="footer-phone" href="tel:+462152146527856">+7 (812) 555-05-55</a>
           <address>г. Санкт-Петербург. ул Б.Конюшенная,д. 19/8</address>
         </div>
-        </din>
-        <ul class="site-navigation">
+        <div class="category-site-navigation">
+        <ul class="foter-site-navigation">
           <li><a href="index.html">Главная</a></li>
           <li><a class="foter-navigation-link" href="company.html">Компания</a></li>
           <li><a class="foter-navigation-link" href="catalog.html">Каталог</a></li>
@@ -245,8 +242,9 @@
           <li><a class="foter-navigation-link" href="instrument.html">Инструмент</a></li>
           <li><a class="foter-navigation-link" href="special-offer.html">Спецпредложения</a></li>
         </ul>
+        </div>
       </div>
-      </nav>
+      </div>
     <div class="footer-container">
       <div class="footer-container-center">
       <p class="copyright">
